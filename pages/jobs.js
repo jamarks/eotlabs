@@ -5,7 +5,7 @@ function Jobs({ data }){
         <div>
             
             {data &&  data.map((d)=>(
-                <a key={d.id} href={'https://join.com/companies/peaq/' + d.id}>
+                <a key={d.id} target="_parent" href={'https://join.com/companies/peaq/' + d.id}>
                     <div className='container-fluid flex w-full flex-col hover:cursor-pointer md:flex-row text-lg p-8 border hover:bg-gray-200 font-poppins'>
                         <div className='flex-none w-1/2 md:w-3/5 font-semibold text-3xl mt-2'>{d.title}</div>
                         <div className='flex w-full md:w-2/5 py-8 sm:py-4'>
