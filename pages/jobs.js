@@ -6,8 +6,8 @@ function Jobs({ data }){
             
             {data &&  data.map((d)=>(
                 <a key={d.id} target="_parent" href={'https://join.com/companies/peaq/' + d.id}>
-                    <div className='container-fluid flex w-full flex-col hover:cursor-pointer md:flex-row text-lg p-8 border hover:bg-[#f3f3f3] font-poppins'>
-                        <div className='flex-none w-1/2 md:w-3/5 font-semibold text-[24px] mt-2'>{d.title}</div>
+                    <div className='container-fluid flex w-full flex-col hover:cursor-pointer md:flex-row text-lg p-8 border-b hover:bg-[#f3f3f3] font-poppins'>
+                        <div className='flex-none w-1/2 md:w-3/5 font-semibold text-[24px] mt-[14px]'>{d.title}</div>
                         <div className='flex w-full md:w-2/5 py-8 sm:py-4'>
                                 <div className='flex-none w-32 text-left lg:text-right font-semibold  md:mt-1 lg:mt-0 text-[18px]'>Full Time</div>
                                 <div className='flex-none w-32 text-left lg:text-right font-semibold  md:mt-1 lg:mt-0 text-[18px]'>Remote</div>
